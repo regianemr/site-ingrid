@@ -50,7 +50,7 @@ export function ContentModule () {
       <h2 className="text-3xl md:text-4xl font-bold text-center text-[#1E3A8A] mb-12">
         O que você vai aprender no curso
       </h2>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto cursor-pointer">
         {modules.map((module, index) => (
           <div
             key={index}
