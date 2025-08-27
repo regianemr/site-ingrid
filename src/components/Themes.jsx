@@ -3,7 +3,7 @@ import { createTheme } from "flowbite-react";
 const navTheme = createTheme ({
   navbar: {
     root: {
-      base: "bg-[#323f63] px-5 py-5 rounded-lg shadow-md",
+      base: "bg-[#0f1627] px-5 py-5 rounded-lg shadow-md",
     },
     link: {
       base: "text-white hover:text-[#d8c6ce] transition-colors text-lg",
