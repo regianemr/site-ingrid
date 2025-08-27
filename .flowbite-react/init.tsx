@@ -7,9 +7,10 @@
 // Instead, edit the .flowbite-react/config.json file.
 
 import { StoreInit } from "flowbite-react/store/init";
+import React from "react";
 
 export const CONFIG = {
-  dark: true,
+  dark: false,
   prefix: "",
   version: 4,
 };
