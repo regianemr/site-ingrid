@@ -11,13 +11,13 @@ export function MyNavbar() {
         </NavbarBrand>
         <NavbarToggle />
         <NavbarCollapse>
-          <NavbarLink href="#" active>
+          <NavbarLink href="#" >
             Início
           </NavbarLink>
           <NavbarLink href="#">
-            Sobre
+            Quem Sou
           </NavbarLink>
-          <NavbarLink href="#">Cursos</NavbarLink>
+          <NavbarLink href="#">Áreas de Atuação</NavbarLink>
           <NavbarLink href="#">Perguntas</NavbarLink>
           <NavbarLink href="#">Contato</NavbarLink>
         </NavbarCollapse>
