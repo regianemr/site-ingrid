@@ -15,8 +15,6 @@ export function Footer() {
             Domine todas as técnicas necessárias para advogar em defesa das mulheres.
           </p>
         </div>
-
-        {/* Coluna 2 - Links */}
         <div>
           <h3 className="text-xl font-semibold text-white mb-3">Navegação</h3>
           <ul className="space-y-2">
@@ -27,7 +25,6 @@ export function Footer() {
           </ul>
         </div>
 
-        {/* Coluna 3 - Contato / Redes */}
         <div>
           <h3 className="text-xl font-semibold text-white mb-3">Contato</h3>
           <div className="flex justify-center md:justify-start gap-4">
