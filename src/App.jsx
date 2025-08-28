@@ -1,6 +1,7 @@
 import { About } from "./components/About"
 import { ContentModule } from "./components/Content"
 import { Differentials } from "./components/Differentials"
+import { Footer } from "./components/Footer"
 import { Hero } from "./components/Hero"
 import { MyNavbar } from "./components/Navbar"
 import { CoursePricing } from "./components/Price"
@@ -15,14 +16,10 @@ function App() {
       <Hero />
       <ContentModule />
       <Differentials />
-      <Questions />
       <About />
       <CoursePricing />
-      {/* <BrowserRouter>
-        <Routes>
-          <Route index element={<Home />} />
-        </Routes>
-      </BrowserRouter> */}
+      <Questions />
+      <Footer />
     </>
   )
 }
