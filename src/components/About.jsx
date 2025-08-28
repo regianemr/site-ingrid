@@ -2,7 +2,7 @@ import imageAbout from '../assets/img-hero.png'
 
 export function About () {
   return (
-    <section className=" bg-gray-50 py-16 px-6 flex justify-center">
+    <section className=" bg-gray-150 py-16 px-6 flex justify-center">
       <div className="max-w-6xl max-auto grid md:grid-cols-2 gap-10 items-center">
         <div className="flex justify-center">
           <img src={imageAbout} alt="" className="w-80 h-80 object-cover rounded-full shadow-lg border-1 border-gray-200"/>

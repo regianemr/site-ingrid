@@ -2,7 +2,7 @@ import { Accordion, AccordionContent, AccordionPanel, AccordionTitle } from "flo
 
 export function Questions() {
   return (
-    <section id="faq" className="bg-gray-50 py-16 px-6">
+    <section id="faq" className="bg-gray-150 py-16 px-6">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">Perguntas Frequentes</h2>
       </div>
